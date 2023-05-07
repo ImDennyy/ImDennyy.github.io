@@ -1,0 +1,29 @@
+    /* RESPONSIVE */    
+
+    @media screen and (max-width: 768px) {
+        .typing {
+            width: 16ch;
+            animation: typing 3s steps(16), blink .5s step-end infinite alternate;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid;
+            font-family: 'Source Code Pro', monospace;
+            font-size: 38px;
+          }
+          .rainbow2 {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 32px;
+            animation-name: rainbow;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+         } 
+         h1 {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 20px;
+        }
+        
+        p {
+            font-family: 'Source Code Pro', monospace;
+            font-size: 18px;
+        }
+    }	
