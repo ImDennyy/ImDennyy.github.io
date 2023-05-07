@@ -1,2 +1,0 @@
-# ImDennyy.github.io
-SIUMMM
